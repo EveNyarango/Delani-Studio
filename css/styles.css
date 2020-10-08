@@ -2,6 +2,9 @@
     background-image: url(/images/h_img.jpg);
     background-size: cover;
 }
+.intro p, h1{
+    color: whitesmoke;
+}
 body{
     text-align: center;
 }
