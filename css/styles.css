@@ -15,16 +15,22 @@ body{
 .service {
     color: whitesmoke;
 }
+.col-md-3 img{
+    width:250px;
+    /* margin-right:10px; */
+}
+#kerry{
+    background: none;
+}
 .contact{
     background-image: url(/images/c_image.jpg);
     height: 400px;
     width:100%;
-    /* background-size: cover; */
     background-repeat: no-repeat;
     margin-top: 50px;
     padding-top: 30px;
 }
-.contact, h2{
+.contact>h2{
     color: whitesmoke;
 }
 .social{
