@@ -12,6 +12,6 @@ body{
     background-image: url(/images/s_image.jpg);
     background-size: cover;
 }
-.service p, h2{
+.service {
     color: whitesmoke;
 }
