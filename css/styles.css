@@ -15,3 +15,18 @@ body{
 .service {
     color: whitesmoke;
 }
+.contact{
+    background-image: url(/images/c_image.jpg);
+    height: 400px;
+    width:100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.contact, h2{
+    color: whitesmoke;
+}
+.social{
+    margin-top: 30px;
+}
