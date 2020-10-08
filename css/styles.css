@@ -2,3 +2,13 @@
     background-image: url(/images/h_img.jpg);
     background-size: cover;
 }
+body{
+    text-align: center;
+}
+.service{
+    background-image: url(/images/s_image.jpg);
+    background-size: cover;
+}
+.service p, h2{
+    color: whitesmoke;
+}
