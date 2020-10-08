@@ -1,6 +1,6 @@
 .intro{
     background-image: url(/images/h_img.jpg);
-    background-size: cover;
+    height: 500px;
 }
 .intro p, h1{
     color: whitesmoke;
@@ -10,7 +10,7 @@ body{
 }
 .service{
     background-image: url(/images/s_image.jpg);
-    background-size: cover;
+    height: 300px;
 }
 .service {
     color: whitesmoke;
@@ -27,6 +27,13 @@ body{
     height: 200px;
     width: 700px;
     text-align: center;
+}
+.message{
+    margin-left: 200px;
+}
+.col{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .contact{
