@@ -22,6 +22,13 @@ body{
 #kerry{
     background: none;
 }
+#kaka{
+    background:none;
+    height: 200px;
+    width: 700px;
+    text-align: center;
+}
+
 .contact{
     background-image: url(/images/c_image.jpg);
     height: 400px;
