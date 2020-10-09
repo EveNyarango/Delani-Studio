@@ -1,7 +1,11 @@
 .intro{
     background-image: url(/images/h_img.jpg);
     height: 500px;
+    padding-top:80px;
 }
+/* .intro2{
+    padding-top: 70px;
+} */
 .intro p, h1{
     color: whitesmoke;
 }
@@ -49,4 +53,24 @@ body{
 }
 .social{
     margin-top: 30px;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* background-color: #F44336;
+    height: 200px; */
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.bounce-3 {
+    animation-name: bounce-3;
+    animation-timing-function: ease;
+}
+@keyframes bounce-3 {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-100px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
 }
