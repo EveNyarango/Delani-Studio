@@ -1,59 +1,81 @@
-.intro{
+.intro {
     background-image: url(/images/h_img.jpg);
+    background-size: cover;
     height: 500px;
-    padding-top:80px;
+    padding-top: 80px;
 }
+
 /* .intro2{
     padding-top: 70px;
 } */
-.intro p, h1{
+.intro p,
+h1 {
     color: whitesmoke;
 }
-body{
+
+body {
     text-align: center;
 }
-.service{
+
+.service {
     background-image: url(/images/s_image.jpg);
     height: 300px;
 }
+
 .service {
     color: whitesmoke;
+    padding-top: 70px;
 }
-.col-md-3 img{
-    width:250px;
+
+.col-md-3 img {
+    width: 250px;
     /* margin-right:10px; */
 }
-#kerry{
+
+#kerry {
     background: none;
 }
-#kaka{
-    background:none;
+
+#kaka {
+    background: none;
     height: 200px;
     width: 700px;
     text-align: center;
 }
-.message{
+
+.message {
     margin-left: 200px;
 }
-.col{
-    margin-left: 50px;
-    margin-right: 50px;
+
+.col {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.contact{
+.contact {
     background-image: url(/images/c_image.jpg);
     height: 400px;
-    width:100%;
+    width: 100%;
     background-repeat: no-repeat;
     margin-top: 50px;
     padding-top: 30px;
 }
-.contact>h2{
+
+.contact>h2 {
     color: whitesmoke;
 }
-.social{
+
+#par1,
+#par2,
+#par3 {
+    display: none;
+    cursor: progress;
+}
+
+.social {
     margin-top: 30px;
 }
+
 .box {
     align-self: flex-end;
     animation-duration: 2s;
@@ -64,13 +86,37 @@ body{
     transform-origin: bottom;
     width: 200px;
 }
+
 .bounce-3 {
     animation-name: bounce-3;
     animation-timing-function: ease;
 }
+
 @keyframes bounce-3 {
-    0%   { transform: translateY(0); }
-    30%  { transform: translateY(-100px); }
-    50%  { transform: translateY(0); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.panther {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: white;
+    font-size: 20px;
+    opacity: 0.6;
 }
