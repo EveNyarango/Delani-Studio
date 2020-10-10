@@ -78,6 +78,13 @@ $(document).ready(function () {
 
 
 function myResponse() {
-    var name = document.getElementById("kerry");
-    alert("Thank you" + name + "," + "for your response")
+    var name = document.getElementById("kerry").value;
+    alert("Thank you " + name   + "," + "for your response." + "Looking forward" + " to serve you better.")
 };
+
+    //   alternatively
+
+// $("button").click(function () {
+//     var client = document.getElementById("kerry").value;
+//     alert(' Dear ' + client + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+//   });
