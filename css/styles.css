@@ -1,13 +1,13 @@
+/* @font-face {
+    src : url(/EncodeSansCondensed-Thin.ttf);
+    font-family:love;
+} */
 .intro {
     background-image: url(/images/h_img.jpg);
     background-size: cover;
     height: 500px;
     padding-top: 80px;
 }
-
-/* .intro2{
-    padding-top: 70px;
-} */
 .intro p,
 h1 {
     color: whitesmoke;
@@ -119,4 +119,7 @@ body {
     background-color: white;
     font-size: 20px;
     opacity: 0.6;
+}
+#kerry ::placeholder{
+    color: white;
 }
