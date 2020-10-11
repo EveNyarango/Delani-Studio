@@ -4,7 +4,7 @@
 }
 
 .intro {
-    background-image: url(/images/h_img.jpg);
+    background-image: url(../images/h_img.jpg);
     background-size: cover;
     height: 500px;
     padding-top: 80px;
@@ -21,7 +21,7 @@ body {
 }
 
 .service {
-    background-image: url(/images/s_image.jpg);
+    background-image: url(../images/s_image.jpg);
     height: 300px;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .contact {
-    background-image: url(/images/c_image.jpg);
+    background-image: url(../images/c_image.jpg);
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
