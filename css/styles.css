@@ -35,6 +35,9 @@ body {
 #kerry {
     background: none;
 }
+#mce-EMAIL{
+    background: none;
+}
 
 #kaka {
     background: none;
@@ -75,13 +78,14 @@ body {
 .social {
     margin-top: 30px;
 }
+#kkk {
+    margin-top: 2000px;
+}
 
 .box {
     align-self: flex-end;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    /* background-color: #F44336;
-    height: 200px; */
     margin: 0 auto 0 auto;
     transform-origin: bottom;
     width: 200px;
@@ -120,6 +124,6 @@ body {
     font-size: 20px;
     opacity: 0.6;
 }
-#kerry ::placeholder{
+/* #kerry ::placeholder{
     color: white;
-}
+} */

@@ -17,9 +17,9 @@ Run the project on live server
 ## BDD
 
 ## Technologies used
-This page was created using HTML,JAVASCRIPT, BOOTSTRAP and CSS. 
+This page was created using HTML,JAVASCRIPT, JQUERY, BOOTSTRAP and CSS. 
 HTML was used for the structure of the Page outlook.
- CSS and BOOTSTRAP was used to style the web application and JAVASCRIPT was used to make the page responsive.
+ CSS and BOOTSTRAP was used to style the web application and JAVASCRIPT and JQUERY are used to make the page responsive.
  ## Link
 
  ## Contact Information
