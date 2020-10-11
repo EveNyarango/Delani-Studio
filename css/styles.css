@@ -136,6 +136,7 @@ body {
 
 #mce-EMAIL::placeholder {
     color: white;
+    
 }
 
 #kaka::placeholder {
@@ -144,4 +145,11 @@ body {
 
 .contact>h3 {
     color: white;
+}
+input{
+    color: white;
+    text-color:white;
+}
+.about, .what{
+    padding-top: 30px;
 }
