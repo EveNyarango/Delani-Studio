@@ -1,5 +1,5 @@
 # Delani Studio
-Name and date of birth generation.
+A website for Delani Studio
 
 ### Project Description
 This is a fictional website for Delani Studio.
@@ -15,7 +15,9 @@ Open project on code editor
 code .
 Run the project on live server
 ## BDD
-
+Enter name
+Enter email
+Write your message
 ## Technologies used
 This page was created using HTML,JAVASCRIPT, JQUERY, BOOTSTRAP and CSS. 
 HTML was used for the structure of the Page outlook.

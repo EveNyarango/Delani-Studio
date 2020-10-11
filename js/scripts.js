@@ -82,9 +82,9 @@ function myResponse() {
     alert("Thank you " + name   + "," + "for your response." + "Looking forward" + " to serve you better.")
 };
 
-    //   alternatively
+//       alternatively
 
 // $("button").click(function () {
-//     var client = document.getElementById("kerry").value;
-//     alert(' Dear ' + client + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+//     var name = document.getElementById("kerry").value;
+//     alert("Thank you " + name   + "," + "for your response." + "Looking forward" + " to serve you better.")
 //   });
