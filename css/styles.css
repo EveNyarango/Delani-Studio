@@ -1,13 +1,15 @@
-/* @font-face {
-    src : url(/EncodeSansCondensed-Thin.ttf);
-    font-family:love;
-} */
+@font-face {
+    src: url(/Roboto-Regular.ttf);
+    font-family: viva;
+}
+
 .intro {
     background-image: url(/images/h_img.jpg);
     background-size: cover;
     height: 500px;
     padding-top: 80px;
 }
+
 .intro p,
 h1 {
     color: whitesmoke;
@@ -15,6 +17,7 @@ h1 {
 
 body {
     text-align: center;
+    font-family: viva;
 }
 
 .service {
@@ -29,30 +32,31 @@ body {
 
 .col-md-3 img {
     width: 250px;
-    /* margin-right:10px; */
+
 }
 
 #kerry {
     background: none;
 }
-#mce-EMAIL{
+
+#mce-EMAIL {
     background: none;
 }
 
 #kaka {
     background: none;
     height: 200px;
-    width: 700px;
+    width: 900px;
     text-align: center;
 }
 
 .message {
-    margin-left: 200px;
+    margin-left: 130px;
 }
 
 .col {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .contact {
@@ -78,6 +82,7 @@ body {
 .social {
     margin-top: 30px;
 }
+
 #kkk {
     margin-top: 2000px;
 }
@@ -124,6 +129,19 @@ body {
     font-size: 20px;
     opacity: 0.6;
 }
-/* #kerry ::placeholder{
+
+#kerry::placeholder {
     color: white;
-} */
+}
+
+#mce-EMAIL::placeholder {
+    color: white;
+}
+
+#kaka::placeholder {
+    color: white;
+}
+
+.contact>h3 {
+    color: white;
+}
